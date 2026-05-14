@@ -1,0 +1,14 @@
+name = "TrussCExample"
+uuid = "f170db11-09bc-475a-afc5-9d1a5422eec2"
+version = "0.1.0"
+authors = ["Fumiya Funatsu <funatsu.fumiya@gmail.com>"]
+
+[deps]
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+TrussC = "0a376bb9-dc76-480f-94ee-afa071fbfff1"
+TrussC_prebuilt_jll = "e7cc2c53-7038-4b74-8b33-1c1d7e4a43f4"
+
+[compat]
+Printf = "1.11.0"
+TrussC = "0.1.0"
+TrussC_prebuilt_jll = "0.1.0"
