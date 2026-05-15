@@ -4,6 +4,8 @@
 
 ## Sample code
 
+![screenshot1](docs/screenshot1.png)
+
 ```julia
 module TrussCExample
 
