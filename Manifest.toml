@@ -52,14 +52,14 @@ version = "1.0.3"
 
 [[deps.TrussC]]
 deps = ["CxxWrap", "TrussC_prebuilt_jll"]
-git-tree-sha1 = "e7b45e304c66e27760eef0ee3e67f14317e0cd36"
+git-tree-sha1 = "596a98760454b9efcd5388eace919e2dd44e7c39"
 repo-rev = "main"
 repo-url = "https://github.com/funatsufumiya/TrussC.jl.git"
 uuid = "0a376bb9-dc76-480f-94ee-afa071fbfff1"
 version = "0.1.0"
 
 [[deps.TrussCExample]]
-deps = ["TrussC", "TrussC_prebuilt_jll"]
+deps = ["Printf", "TrussC", "TrussC_prebuilt_jll"]
 path = "."
 uuid = "f170db11-09bc-475a-afc5-9d1a5422eec2"
 version = "0.1.0"
