@@ -2,7 +2,7 @@
 
 julia_version = "1.12.6"
 manifest_format = "2.0"
-project_hash = "3e54b13621cc70e11502e6b625e4d1bcc05188b1"
+project_hash = "57b3a9ad40958fcbce807bae6a5a3191ab378a50"
 
 [[deps.Artifacts]]
 uuid = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
@@ -52,25 +52,25 @@ version = "1.0.3"
 
 [[deps.TrussC]]
 deps = ["CxxWrap", "TrussC_prebuilt_jll"]
-git-tree-sha1 = "a9bd12fa797794286ce89bbf7d5e100b01ab7b53"
+git-tree-sha1 = "30e7635598aa85fe5f8f907165fd9c7b2ef138dd"
 repo-rev = "main"
 repo-url = "https://github.com/funatsufumiya/TrussC.jl.git"
 uuid = "0a376bb9-dc76-480f-94ee-afa071fbfff1"
-version = "0.2.2"
+version = "0.2.3"
 
 [[deps.TrussCExample]]
 deps = ["Printf", "TrussC", "TrussC_prebuilt_jll"]
 path = "."
 uuid = "f170db11-09bc-475a-afc5-9d1a5422eec2"
-version = "0.2.2"
+version = "0.2.3"
 
 [[deps.TrussC_prebuilt_jll]]
 deps = ["Artifacts"]
-git-tree-sha1 = "fb4a6c99ecf81cfb8e352567fbaada7c368cdd8d"
+git-tree-sha1 = "f724a2cde8262bc1b76ef848d695fafbcb536b7a"
 repo-rev = "main"
 repo-url = "https://github.com/funatsufumiya/TrussC_prebuilt_jll.git"
 uuid = "cfe08a50-4fff-11f1-bfed-990c59676b1f"
-version = "0.2.2"
+version = "0.2.3"
 
 [[deps.Unicode]]
 uuid = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
