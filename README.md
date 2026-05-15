@@ -2,6 +2,46 @@
 
 [TrussC](https://trussc.org/) Julia example, using [TrussC.jl](https://github.com/funatsufumiya/TrussC.jl)
 
+```julia
+module TrussCExample
+
+using TrussC
+
+# tc = TrussC
+
+function setup()
+  setFps(60.0f0)
+end
+
+function draw()
+  clear(0.12f0, 1.0f0)
+
+  # Rotating box
+  pushMatrix();
+  noFill();
+  translate(getWindowWidth() / 2.0f0, getWindowHeight() / 2.0f0);
+  rotate(Float32(getElapsedTimef() * 0.1f0), Float32(getElapsedTimef() * 0.15f0), 0.0f0);
+  drawBox(200.0f0);
+  popMatrix();
+end
+
+function keyPressed(key::Cint)
+  c = Char(key)
+  println("key: ", c, " (", key ,")")
+end
+
+function main()
+  @setup(setup)
+  @draw(draw)
+  @keyPressed(keyPressed)
+
+  runTrusscApp()
+end
+
+end # module TrussCExample
+
+```
+
 ## Usage
 
 ### Run julia code
