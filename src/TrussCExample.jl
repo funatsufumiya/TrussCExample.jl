@@ -69,7 +69,6 @@ function main()
   @windowResized(windowResized)
   @filesDropped(filesDropped)
 
-  # println(greet())
   runTrusscApp()
 end
 
