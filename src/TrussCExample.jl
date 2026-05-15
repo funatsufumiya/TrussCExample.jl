@@ -3,6 +3,8 @@ module TrussCExample
 using TrussC
 using Printf
 
+tc = TrussC
+
 function setup()
   println("setup!")
 
