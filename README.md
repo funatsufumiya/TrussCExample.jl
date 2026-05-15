@@ -2,6 +2,8 @@
 
 [TrussC](https://trussc.org/) Julia example, using [TrussC.jl](https://github.com/funatsufumiya/TrussC.jl)
 
+## Sample code
+
 ```julia
 module TrussCExample
 
