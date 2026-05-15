@@ -1,6 +1,6 @@
 name = "TrussCExample"
 uuid = "f170db11-09bc-475a-afc5-9d1a5422eec2"
-version = "0.1.8"
+version = "0.2.0"
 authors = ["Fumiya Funatsu <funatsu.fumiya@gmail.com>"]
 
 [deps]
@@ -10,5 +10,5 @@ TrussC_prebuilt_jll = "cfe08a50-4fff-11f1-bfed-990c59676b1f"
 
 [compat]
 Printf = "1.11.0"
-TrussC = "0.1.8"
-TrussC_prebuilt_jll = "0.1.8"
+TrussC = "0.2.0"
+TrussC_prebuilt_jll = "0.2.0"
