@@ -48,7 +48,9 @@ end # module TrussCExample
 
 ## Usage
 
-### Run julia code
+### Basic Example
+
+[src/BasicExample.jl](src/BasicExample.jl)
 
 ```bash
 $ julia --project=@. -e 'using Pkg; Pkg.instantiate()'
@@ -59,8 +61,10 @@ $ julia --project=@. -e 'using TrussCExample; TrussCExample.main();'
 
 ### EasyCam example
 
+[src/EasyCamExample.jl](src/EasyCamExample.jl)
+
 ```bash
-# julia --project=@. -e 'using Pkg; Pkg.instantiate()'
+$ julia --project=@. -e 'using Pkg; Pkg.instantiate()'
 $ julia --project=@. -e 'using TrussCExample; EasyCamExample.main();'
 ```
 
