@@ -57,6 +57,17 @@ $ julia --project=@. -e 'using TrussCExample; TrussCExample.main();'
 
 ![screenshot](docs/screenshot.png)
 
+### EasyCam example
+
+```bash
+# julia --project=@. -e 'using Pkg; Pkg.instantiate()'
+$ julia --project=@. -e 'using TrussCExample; EasyCamExample.main();'
+```
+
+![easycam_example_screenshot.png](docs/easycam_example_screenshot.png)
+
+## Known Issues
+
 > [!Warning]
 > ***Windows CxxWrap.jl issue***<br><br>
 > If not working CxxWrap.jl on Windows, you need to try [Building libcxxwrap-julia](https://github.com/JuliaInterop/libcxxwrap-julia#building-libcxxwrap-julia) (Because prebuilt packaged dll for CxxWrap.jl is not compatible with MSVC).<br>
