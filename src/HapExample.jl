@@ -4,7 +4,7 @@ using TrussC
 using Printf
 import tcxHap
 
-hap = tcxHap
+hap = TrussC # WORKAROUND
 tc = TrussC
 
 function setup()

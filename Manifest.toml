@@ -2,7 +2,7 @@
 
 julia_version = "1.12.6"
 manifest_format = "2.0"
-project_hash = "dbf5524e2457d0f731f2895fb561908838c31088"
+project_hash = "983aa821418762280922d7460608e55df4ddcb3b"
 
 [[deps.Artifacts]]
 uuid = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
@@ -57,25 +57,25 @@ version = "1.0.3"
 
 [[deps.TrussC]]
 deps = ["CxxWrap", "TrussC_prebuilt_jll"]
-git-tree-sha1 = "82f604e429d165d045c3ecdb14e8f93c877dc692"
+git-tree-sha1 = "80ecc508fff3272a79e800d74ad2029f0ec223c2"
 repo-rev = "main"
-repo-url = "https://github.com/funatsufumiya/TrussC.jl.git"
+repo-url = "https://github.com/funatsufumiya/TrussC.jl"
 uuid = "0a376bb9-dc76-480f-94ee-afa071fbfff1"
-version = "0.2.11"
+version = "0.3.0"
 
 [[deps.TrussCExample]]
-deps = ["Pipe", "Printf", "TrussC", "TrussC_prebuilt_jll", "tcxHap_prebuilt_jll"]
+deps = ["Pipe", "Printf", "TrussC", "TrussC_prebuilt_jll"]
 path = "."
 uuid = "f170db11-09bc-475a-afc5-9d1a5422eec2"
 version = "0.2.11"
 
 [[deps.TrussC_prebuilt_jll]]
 deps = ["Artifacts"]
-git-tree-sha1 = "2bd1728b716076db0499c7384705f44a59da1c61"
+git-tree-sha1 = "d98c2eb05f96c999e7855b85186b3487e2ff40d2"
 repo-rev = "main"
-repo-url = "https://github.com/funatsufumiya/TrussC_prebuilt_jll.git"
+repo-url = "https://github.com/funatsufumiya/TrussC_prebuilt_jll"
 uuid = "cfe08a50-4fff-11f1-bfed-990c59676b1f"
-version = "0.2.11"
+version = "0.3.0"
 
 [[deps.Unicode]]
 uuid = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
@@ -86,19 +86,3 @@ deps = ["Artifacts", "JLLWrappers", "Libdl"]
 git-tree-sha1 = "a0b6eb05dde4ededa688ecf05e33caa5bffd42a5"
 uuid = "3eaa8342-bff7-56a5-9981-c04077f7cee7"
 version = "0.14.9+0"
-
-[[deps.tcxHap]]
-deps = ["CxxWrap", "tcxHap_prebuilt_jll"]
-git-tree-sha1 = "122228d48ef77f26cdb97167f113071a318f32e0"
-repo-rev = "main"
-repo-url = "https://github.com/funatsufumiya/tcxHap.jl.git"
-uuid = "632d97c4-4969-43df-a9f2-2bda2e8e4333"
-version = "0.1.0"
-
-[[deps.tcxHap_prebuilt_jll]]
-deps = ["Artifacts"]
-git-tree-sha1 = "fc5211fac9d8ea1499c0389b44fa03883f2952d4"
-repo-rev = "main"
-repo-url = "https://github.com/funatsufumiya/tcxHap_prebuilt_jll.git"
-uuid = "7e05f6af-0904-4d10-a62c-731e6275e007"
-version = "0.1.0"

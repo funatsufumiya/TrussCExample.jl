@@ -72,7 +72,7 @@ $ julia --project=@. -e 'using TrussCExample; EasyCamExample.main();'
 
 ### OSC example
 
-[src/OscExample.jl (osc branch)](https://github.com/funatsufumiya/TrussCExample.jl/blob/osc/src/OscExample.jl)
+[src/OscExample.jl](src/OscExample.jl)
 
 ```bash
 $ git checkout osc
@@ -88,7 +88,7 @@ $ git checkout main # NOTE: when ended
 
 ### Hap example
 
-[src/HapExample.jl (osc branch)](https://github.com/funatsufumiya/TrussCExample.jl/blob/hap/src/HapExample.jl)
+[src/HapExample.jl](src/HapExample.jl)
 
 ```bash
 $ git checkout hap
