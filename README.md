@@ -70,6 +70,22 @@ $ julia --project=@. -e 'using TrussCExample; EasyCamExample.main();'
 
 ![easycam_example_screenshot.png](docs/easycam_example_screenshot.png)
 
+### OSC example
+
+[src/OscExample.jl](src/OscExample.jl)
+
+```bash
+$ git checkout osc
+$ julia --project=@. -e 'using Pkg; Pkg.instantiate()'
+$ julia --project=@. -e 'using TrussCExample; OscExample.main();'
+
+# ---
+
+$ git checkout main # NOTE: when ended
+```
+
+![osc_example.png](docs/osc_example.png)
+
 ## Known Issues
 
 > [!Warning]
