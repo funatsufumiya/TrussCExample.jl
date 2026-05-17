@@ -2,7 +2,7 @@
 
 julia_version = "1.12.6"
 manifest_format = "2.0"
-project_hash = "7765149022b3139223f360413db4b74856e80fa4"
+project_hash = "73181903a9b4087938df0a897a0bbdde727293d1"
 
 [[deps.Artifacts]]
 uuid = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
@@ -64,7 +64,7 @@ uuid = "0a376bb9-dc76-480f-94ee-afa071fbfff1"
 version = "0.2.11"
 
 [[deps.TrussCExample]]
-deps = ["Pipe", "Printf", "TrussC", "TrussC_prebuilt_jll"]
+deps = ["Pipe", "Printf", "TrussC", "TrussC_prebuilt_jll", "tcxOsc_prebuilt_jll"]
 path = "."
 uuid = "f170db11-09bc-475a-afc5-9d1a5422eec2"
 version = "0.2.11"
@@ -86,3 +86,19 @@ deps = ["Artifacts", "JLLWrappers", "Libdl"]
 git-tree-sha1 = "a0b6eb05dde4ededa688ecf05e33caa5bffd42a5"
 uuid = "3eaa8342-bff7-56a5-9981-c04077f7cee7"
 version = "0.14.9+0"
+
+[[deps.tcxOsc]]
+deps = ["CxxWrap", "tcxOsc_prebuilt_jll"]
+git-tree-sha1 = "e1fa75429b3ee34c7f4c9b2500cb47071208aa27"
+repo-rev = "main"
+repo-url = "https://github.com/funatsufumiya/tcxOsc.jl.git"
+uuid = "693a7808-da09-437a-b67d-06ce8f5e0295"
+version = "0.1.1"
+
+[[deps.tcxOsc_prebuilt_jll]]
+deps = ["Artifacts"]
+git-tree-sha1 = "5278738d4955eb7e63543f51437ada3f19a859b3"
+repo-rev = "main"
+repo-url = "https://github.com/funatsufumiya/tcxOsc_prebuilt_jll.git"
+uuid = "9ce3ad3c-2352-4c6d-b359-b4a6540114e0"
+version = "0.1.1"
