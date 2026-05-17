@@ -84,6 +84,8 @@ $ julia --project=@. -e 'using TrussCExample; OscExample.main();'
 $ git checkout main # NOTE: when ended
 ```
 
+![osc_example.png](docs/osc_example.png)
+
 ## Known Issues
 
 > [!Warning]
