@@ -33,12 +33,12 @@ function draw()
   else
     if hap.isLoaded(player)
       resetStyle()
-      hap.draw(player, 0, 0, getWindowWidth(), getWindowHeight())
+      hap.draw(player, 0f0, 0f0, Float32(getWindowWidth()), Float32(getWindowHeight()))
 
       setColor(0.3f0, 0.3f0, 0.3f0, 0.5f0)
-      drawRect(0f0, 20f0, 200f0, 40f0)
+      drawRect(0f0, 20f0, 200f0, 80f0)
 
-      setColor(Color_black())
+      setColor(Color_white())
       t = hap.getCurrentTime(player)
       drawBitmapString(@sprintf("%0.2f", t), 30f0, 70f0)
     end
@@ -55,6 +55,11 @@ end
 function keyPressed(key::Cint)
   c = Char(key)
   println("key: ", c, " (", key ,")")
+
+  if c == 'q' || c == 'Q' || key == 256 # ESC
+    exitApp()
+    exit(0)
+  end
 end
 
 function mousePressed(pos::Vec2Ref, button::Cint)
@@ -69,6 +74,8 @@ function filesDropped(files::FilesRef)
       hap.load(player, file)
       hap.play(player)
       hap.setLoop(player, true)
+
+      global is_loaded = true
     else
       println("[Warning] files dropped, but only .mov and .avi is supported!")
     end
