@@ -100,7 +100,7 @@ $ julia --project=@. -e 'using TrussCExample; HapExample.main();'
 $ git checkout main # NOTE: when ended
 ```
 
-<!-- ![osc_example.png](docs/osc_example.png) -->
+![hap_example.png](docs/hap_example.png)
 
 ## Known Issues
 
