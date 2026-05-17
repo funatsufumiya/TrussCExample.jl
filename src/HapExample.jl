@@ -2,7 +2,6 @@ module HapExample
 
 using TrussC
 using Printf
-import tcxHap
 
 hap = TrussC # WORKAROUND
 tc = TrussC

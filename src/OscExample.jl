@@ -2,7 +2,6 @@ module OscExample
 
 using TrussC
 using Printf
-import tcxOsc
 
 tc = TrussC
 osc = TrussC # WORKAROUND
