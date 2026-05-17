@@ -86,6 +86,22 @@ $ git checkout main # NOTE: when ended
 
 ![osc_example.png](docs/osc_example.png)
 
+### Hap example
+
+[src/HapExample.jl (osc branch)](https://github.com/funatsufumiya/TrussCExample.jl/blob/hap/src/HapExample.jl)
+
+```bash
+$ git checkout hap
+$ julia --project=@. -e 'using Pkg; Pkg.instantiate()'
+$ julia --project=@. -e 'using TrussCExample; HapExample.main();'
+
+# ---
+
+$ git checkout main # NOTE: when ended
+```
+
+<!-- ![osc_example.png](docs/osc_example.png) -->
+
 ## Known Issues
 
 > [!Warning]
