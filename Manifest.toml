@@ -57,7 +57,7 @@ version = "1.0.3"
 
 [[deps.TrussC]]
 deps = ["CxxWrap", "TrussC_prebuilt_jll"]
-git-tree-sha1 = "82aa3c6b783557b7958245b50e7afab73e9a7eca"
+git-tree-sha1 = "e404b7c2ee241b1daab47f401dd78cf99ab2241b"
 repo-rev = "main"
 repo-url = "https://github.com/funatsufumiya/TrussC.jl"
 uuid = "0a376bb9-dc76-480f-94ee-afa071fbfff1"
