@@ -12,5 +12,5 @@ TrussC_prebuilt_jll = "cfe08a50-4fff-11f1-bfed-990c59676b1f"
 [compat]
 Pipe = "1.3.0"
 Printf = "1.11.0"
-TrussC = "0.3.0"
-TrussC_prebuilt_jll = "0.3.0"
+TrussC = "0.3.2"
+TrussC_prebuilt_jll = "0.3.2"
